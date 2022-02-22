@@ -1,0 +1,545 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The passion of our Saviour a pindarick ode on the suffering God, in imitation of rapins Christus patiens / by Francis Bragge.</title>
+            <author>Bragge, Francis, 1664-1728.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1694</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 12 KB of XML-encoded text transcribed from 21 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A29180</idno>
+            <idno type="STC">Wing B4200</idno>
+            <idno type="STC">ESTC T221457</idno>
+            <idno type="EEBO-CITATION">12774817</idno>
+            <idno type="OCLC">ocm 12774817</idno>
+            <idno type="VID">93745</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A29180)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 93745)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1521:16)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The passion of our Saviour a pindarick ode on the suffering God, in imitation of rapins Christus patiens / by Francis Bragge.</title>
+                  <author>Bragge, Francis, 1664-1728.</author>
+               </titleStmt>
+               <extent>[21] leaves.   </extent>
+               <publicationStmt>
+                  <publisher>Engraved ... and sold by John Sturt ...,</publisher>
+                  <pubPlace>[S.l.] :</pubPlace>
+                  <date>[1694?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Engraved illustration t.p.</note>
+                  <note>Date of publication suggested by Wing.</note>
+                  <note>Reproduction of original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Jesus Christ --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-02</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-03</date>
+            <label>John Pas</label>Sampled and proofread</change>
+         <change>
+            <date>2013-03</date>
+            <label>John Pas</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:93745:1" rendition="simple:additions"/>
+            <p>The PASSION of our SAVIOUR.</p>
+            <p>A PINDARICK ODE <hi>on the</hi> Suffering GOD. In Imitation of <hi>RAPINS</hi> CHRISTUS Patiens.</p>
+            <p>
+               <hi>By Francis Bragge Gent.</hi>
+            </p>
+            <p>Engra<gap reason="illegible" resp="#MURP" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> 
+               <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> and ſold by John S<gap reason="illegible" resp="#MURP" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> in Golden Lion Court in Alderſgate <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+            </p>
+            <figure>
+               <figDesc>engraved title page</figDesc>
+            </figure>
+         </div>
+      </front>
+      <body>
+         <div type="ode">
+            <pb facs="tcp:93745:2"/>
+            <lg n="1">
+               <pb n="1" facs="tcp:93745:2"/>
+               <fw>
+                  <figure>
+                     <figDesc>decorative border resembling a picture frame</figDesc>
+                  </figure>
+               </fw>
+               <head>I.</head>
+               <l>WHAT Dark and <hi>Diſmal ſhade</hi> is this?</l>
+               <l>What <hi>Gloomy Sadneſs</hi> ſpreading o'er the Skies?</l>
+               <l>What Black and Melancholy Vail,</l>
+               <l>Which Covers Mourning Natures Face?</l>
+               <l>Why has th'Affrighted Sun forſook his Place?</l>
+               <l>And why the Univerſe ſo Pale?</l>
+               <l>Why does the Trembling Moon turn back her Weeping Eyes?</l>
+               <l>Sure there was never cauſe of grief <hi>like this!</hi>
+               </l>
+               <l>The Sun beheld the DEITY,</l>
+               <pb facs="tcp:93745:3"/>
+               <pb n="2" facs="tcp:93745:3"/>
+               <fw>
+                  <figure>
+                     <figDesc>decorative border resembling a picture frame</figDesc>
+                  </figure>
+               </fw>
+               <l>Beheld his <hi>Maker</hi> Hanging on a Tree.</l>
+               <l>He ſaw—and ſtarted back—and hid his Face,</l>
+               <l>Aſham'd to ſhew his own <hi>Created</hi> Rays,</l>
+               <l>When once he'd ſeen the <hi>Source of Light,</hi>
+               </l>
+               <l>Th' <hi>Eternal GOD,</hi> involv'd in <hi>Night.</hi>
+               </l>
+            </lg>
+            <lg n="2">
+               <head>II.</head>
+               <l>But where ſhould I begin? where ſhould I end?</l>
+               <l>This <hi>Sad,</hi> if there was <hi>ever</hi> ſad Complaint?</l>
+               <l>Shall I relate his Fleſh with Scourges <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>orn,</l>
+               <l>And how he bore the Pain, and how he bore y<hi rend="sup">e</hi> Scorn?</l>
+               <pb facs="tcp:93745:4"/>
+               <pb n="3" facs="tcp:93745:4"/>
+               <fw>
+                  <figure>
+                     <figDesc>decorative border resembling a picture frame</figDesc>
+                  </figure>
+               </fw>
+               <l>Or what is ſtranger yet that <hi>Man</hi> could dare,</l>
+               <l>To pierce the <hi>GOD</hi> of <hi>Nature</hi> with a Spear?</l>
+               <l>Shall I tell how the <hi>Softer Rock,</hi>
+               </l>
+               <l>When cover'd ore</l>
+               <l>With Heav'nly Gore:</l>
+               <l>Unable to ſuſtain the ſhock</l>
+               <l>Of ſo Impetuous and ſo juſt a Grief,</l>
+               <l>Burſt—and its Stony Heart did into pieces cleave?</l>
+               <l>Or JESUS ſhall I tell thy Bloody Sweat,</l>
+               <l>When on the Flow'ry top of <hi>Olivet,</hi>
+               </l>
+               <pb facs="tcp:93745:5"/>
+               <pb n="4" facs="tcp:93745:5"/>
+               <fw>
+                  <figure>
+                     <figDesc>decorative border resembling a picture frame</figDesc>
+                  </figure>
+               </fw>
+               <l>Thou ſaw'ſt approaching near</l>
+               <l>The Dreadfull Hour,</l>
+               <l>How exquiſite thy Pangs, how earneſt was thy Prayer!</l>
+               <l>Then what a Flood of Gore,</l>
+               <l>Ran down and Scarlet dy'd each Briny Tear?</l>
+               <l>A wond'ring Angel ſaw the <hi>Trembling GOD,</hi>
+               </l>
+               <l>Saw all his Grief but <hi>wonder'd more,</hi>
+               </l>
+               <l>To ſee his <hi>Love</hi> Triumphant o're his <hi>Fear;</hi>
+               </l>
+               <l>To ſee him take the Cup, and kiſs his Fathers Rod.</l>
+            </lg>
+            <lg n="3">
+               <head>III.</head>
+               <pb facs="tcp:93745:6"/>
+               <pb n="5" facs="tcp:93745:6"/>
+               <fw>
+                  <figure>
+                     <figDesc>decorative border resembling a picture frame</figDesc>
+                  </figure>
+               </fw>
+               <l>Whither Audacious Man! O whither doſt thou go?</l>
+               <l>Hold in thy Deſperate hand and ſee.</l>
+               <l>It is the humble Deity!</l>
+               <l>O! Wound not him who Loves thee ſo,</l>
+               <l>All this he Suffers for <hi>Redeeming</hi> thee.</l>
+               <l>Yet while I ſpeak, Behold! The Armed Throng</l>
+               <l>Pours like a Mighty Torrent in</l>
+               <l>See! how they drag the <hi>Patient GOD</hi> along</l>
+               <l>Who feels not half ſo quick their <hi>Fury</hi> as their <hi>Sin.</hi>
+               </l>
+               <l>The <hi>Impious Crowd</hi> upon him Preſs,</l>
+               <pb facs="tcp:93745:7"/>
+               <pb n="6" facs="tcp:93745:7"/>
+               <fw>
+                  <figure>
+                     <figDesc>decorative border resembling a picture frame</figDesc>
+                  </figure>
+               </fw>
+               <l>One tears his Hair, another wounds his Face;</l>
+               <l>And all with Eager Zeal contend,</l>
+               <l>Who ſhall the moſt abuſe their <hi>Greateſt Friend.</hi>
+               </l>
+               <l>So when with ſtinging hunger Mad,</l>
+               <l>Th'<hi>Hyreanian</hi> Lions range the Forreſt ore;</l>
+               <l>Terror thro' all the Flocks and Herds they ſpread</l>
+               <l>And ev'ry trembling Shepherd Flies before;</l>
+               <l>If e're a <hi>Tender Lamb</hi> is left behind,</l>
+               <l>Not to <hi>one</hi> Savage does the <hi>Victim</hi> fall,</l>
+               <l>But with contending fierceneſs <hi>all,</hi>
+               </l>
+               <l>Tear Limb from Limb, and into <hi>Atoms</hi> Grind.</l>
+               <pb facs="tcp:93745:8"/>
+            </lg>
+            <lg n="4">
+               <pb n="7" facs="tcp:93745:8"/>
+               <fw>
+                  <figure>
+                     <figDesc>decorative border resembling a picture frame</figDesc>
+                  </figure>
+               </fw>
+               <head>IV.</head>
+               <l>And can the avenging Thunder hold,</l>
+               <l>And let ſuch <hi>Monſtrous</hi> Guilt unpuniſhd go?</l>
+               <l>Sure <hi>Heav'ns it ſelf</hi> afraid to ſee ſo <hi>Bold</hi>
+               </l>
+               <l>And ſo <hi>Triumphant</hi> Wickedneſs below!</l>
+               <l>
+                  <hi>As well it may,</hi> ſince <hi>GOD</hi> muſt plead his Cauſe</l>
+               <l>Before a <hi>Mortal</hi> Judge, and fall by <hi>Human</hi> Laws.</l>
+               <l>'Twas Night <hi>&amp;</hi> all things huſh'd in a <hi>ſhort liv'd</hi> repoſe,</l>
+               <l>Nature oppreſt with Grief had fall'n aſleep,</l>
+               <l>Only the <hi>Silver Moon</hi> ſat up to weep,</l>
+               <pb facs="tcp:93745:9"/>
+               <pb n="8" facs="tcp:93745:9"/>
+               <fw>
+                  <figure>
+                     <figDesc>decorative border resembling a picture frame</figDesc>
+                  </figure>
+               </fw>
+               <l>And reſtleſs <hi>Malice Roſe.</hi>
+               </l>
+               <l>The Raving <hi>Jews</hi> each other call,</l>
+               <l>And Drag the wearied <hi>JESUS</hi> to the Hall.</l>
+               <l>O! Let me ne'er Deſcribe the Diſmal Scene</l>
+               <l>
+                  <hi>Of that ſad Night!</hi> How piercing was his Pain!</l>
+               <l>How many Cruel Stripes in <hi>that ſad Night</hi> he Bore,</l>
+               <l>Yet nought return'd but Tears and Gore.</l>
+               <l>All that the Maddeſt Fury could Invent,</l>
+               <l>All that <hi>Revenge</hi> could <hi>Wiſh,</hi> or <hi>Guilt</hi> could <hi>Fear;</hi>
+               </l>
+               <l>Or Keeneſt <hi>Hatred</hi> ever meant,</l>
+               <pb facs="tcp:93745:10"/>
+               <pb n="9" facs="tcp:93745:10"/>
+               <fw>
+                  <figure>
+                     <figDesc>decorative border resembling a picture frame</figDesc>
+                  </figure>
+               </fw>
+               <l>All this and more—</l>
+               <l>In that <hi>one Diſmal Night</hi> they made him bear;</l>
+               <l>And thought it not enough, but Crown'd the reſt</l>
+               <l>With Scornful Jeers, and made their <hi>GOD</hi> their <hi>Jeſt.</hi>
+               </l>
+            </lg>
+            <lg n="5">
+               <head>V.</head>
+               <l>Scarce had <hi>Aurora</hi> ſhew'd the coming Light;</l>
+               <l>And <hi>Phoebus</hi> from his <hi>Watry</hi> Bed,</l>
+               <l>Rowz'd up his <hi>Fiery Steeds,</hi> and Chaſ'd away y<hi rend="sup">e</hi> 
+                  <hi>Night</hi>
+               </l>
+               <l>When all <hi>Amaz'd</hi> he Look'd, and of a <hi>Bloody</hi> Red.</l>
+               <l>
+                  <hi>Trembling</hi> he ſaw th'enrag'd Crow'd,</l>
+               <pb facs="tcp:93745:11"/>
+               <pb n="10" facs="tcp:93745:11"/>
+               <fw>
+                  <figure>
+                     <figDesc>decorative border resembling a picture frame</figDesc>
+                  </figure>
+               </fw>
+               <l>
+                  <hi>Athirſt</hi> for their <hi>Redeemers</hi> Blood,</l>
+               <l>
+                  <hi>Trembling</hi> he heard their Horrid Cry,</l>
+               <l>Rending the Air with <hi>Crucify.</hi>
+               </l>
+               <l>
+                  <hi>Crucify him,</hi> does all the Place Reſound,</l>
+               <l>
+                  <hi>Crucify him,</hi> th'<hi>unwilling</hi> Hills Rebound.</l>
+               <l>The <hi>Judge</hi> perceiv'd his Spotleſs Innocence,</l>
+               <l>Try'd to Aſſwage</l>
+               <l>Their ſwelling Rage;</l>
+               <l>And gave him to be Scourg'd for no <hi>Offence;</hi>
+               </l>
+               <l>Away with Eager haſt they bear</l>
+               <l>Th'Afflicted <hi>GOD.</hi>
+               </l>
+               <pb facs="tcp:93745:12"/>
+               <pb n="11" facs="tcp:93745:12"/>
+               <fw>
+                  <figure>
+                     <figDesc>decorative border resembling a picture frame</figDesc>
+                  </figure>
+               </fw>
+               <l>Still now and greater Torments they prepare,</l>
+               <l>Naked they tye their <hi>Maker</hi> to a Stake,</l>
+               <l>Then with a twiſted prickly Rod</l>
+               <l>The <hi>unrelenting</hi> Soldier Tears his Back;</l>
+               <l>Again renews the ſtroke and opens ev'ry Wound;</l>
+               <l>Again the Ecchoing Walls y<hi rend="sup">e</hi> 
+                  <hi>Hiſſing</hi> Stroke rebound.</l>
+            </lg>
+            <lg n="6">
+               <head>VI.</head>
+               <l>Now thick as Summers Hail or Winter Rain</l>
+               <l>(When with a mighty Deluge Big</l>
+               <l>The teeming Clouds upon a Mountain break)</l>
+               <pb facs="tcp:93745:13"/>
+               <pb n="12" facs="tcp:93745:13"/>
+               <fw>
+                  <figure>
+                     <figDesc>decorative border resembling a picture frame</figDesc>
+                  </figure>
+               </fw>
+               <l>The trickling Blood pours down from ev'ry Vein,</l>
+               <l>And all the Slipp'ry Pavements cover'd o're,</l>
+               <l>With Scarlet ſtreams and knots of <hi>Clotted</hi> Gore.</l>
+               <l>This did th'avenging <hi>Father</hi> See</l>
+               <l>Beheld his ſuffering <hi>Son</hi> in all his Agony,</l>
+               <l>And yet in ne'er a Cloud of Thunder ſpoke,</l>
+               <l>Nor Cruſh'd 'em down to Hell with one <hi>Almighty Stroke.</hi>
+               </l>
+               <l>A Diadem of peircing Thorns they made,</l>
+               <l>And <hi>Crown'd</hi> at once and <hi>Tore</hi> his tender Head.</l>
+               <l>A <hi>Reed</hi> they for a <hi>Scepter</hi> bring,</l>
+               <pb facs="tcp:93745:14"/>
+               <pb n="13" facs="tcp:93745:14"/>
+               <fw>
+                  <figure>
+                     <figDesc>decorative border resembling a picture frame</figDesc>
+                  </figure>
+               </fw>
+               <l>Cry Hail! <hi>&amp;</hi> Bow the Knee, <hi>&amp;</hi> Mock their <hi>Bleeding King,</hi>
+               </l>
+               <l>They See with <hi>Horrid Joy,</hi> the ſtreaming Blood</l>
+               <l>Down from his wounded Temples pour,</l>
+               <l>They ſee his Face with Scars diſfigur'd o'er,</l>
+               <l>And <hi>Laughing</hi> ſay—Behold the Son of <hi>GOD!</hi>
+               </l>
+               <l>Now does the Workman rend the ſturdy Oak,</l>
+               <l>And <hi>Unconcern'd</hi> redoubles ev'ry ſtroke;</l>
+               <l>
+                  <hi>Securely</hi> He the fatal <hi>Engine</hi> makes,</l>
+               <l>While at the Dreadful ſight <hi>Affrighted Nature</hi> ſhakes.</l>
+            </lg>
+            <pb facs="tcp:93745:15"/>
+            <lg n="7">
+               <pb n="14" facs="tcp:93745:15"/>
+               <fw>
+                  <figure>
+                     <figDesc>decorative border resembling a picture frame</figDesc>
+                  </figure>
+               </fw>
+               <head>VII.</head>
+               <l>'Tis Done—and <hi>Jeſus</hi> bears away his Croſs,</l>
+               <l>The Scene of all his <hi>Triumphs,</hi> all his <hi>Woes,</hi>
+               </l>
+               <l>'Gainſt mighty <hi>Death</hi> he goes to take the Field</l>
+               <l>Reſolv'd to <hi>Conquer,</hi> yet Reſolv'd to <hi>Yield.</hi>
+               </l>
+               <l>And now he ſinks below th'unequal weight</l>
+               <l>Of ſuch a Load as <hi>Sin</hi> and <hi>That,</hi>
+               </l>
+               <l>Too ſoon they fear his Pains would ceaſe,</l>
+               <l>And out of <hi>Cruel Pity</hi> lend a little Eaſe.</l>
+               <l>Another takes the Croſs, and on they go</l>
+               <pb facs="tcp:93745:16"/>
+               <pb n="15" facs="tcp:93745:16"/>
+               <fw>
+                  <figure>
+                     <figDesc>decorative border resembling a picture frame</figDesc>
+                  </figure>
+               </fw>
+               <l>To Lofty <hi>Golgotha</hi>'s Aſpiring Brow,</l>
+               <l>Thrice did the trembling Mountain ſound,</l>
+               <l>And thrice the hollow Caverns Groan'd,</l>
+               <l>All Nature into dire <hi>Convulſions</hi> fell,</l>
+               <l>To ſee the <hi>Drooping Heav'ns, &amp;</hi> hear y<hi rend="sup">e</hi> Shouts of <hi>Hell!</hi>
+               </l>
+               <l>The harden'd <hi>Jews</hi> alone with Fury Blind,</l>
+               <l>Stretch forth their Naked <hi>GOD;</hi>
+               </l>
+               <l>His Hands <hi>&amp;</hi> Feet upon the <hi>Croſs</hi> they Bind,</l>
+               <l>And fix with Nails unto the <hi>Groaning</hi> Wood.</l>
+               <l>Aloft the <hi>Pond'rous</hi> Trunk they rear,</l>
+               <pb facs="tcp:93745:17"/>
+               <pb n="16" facs="tcp:93745:17"/>
+               <fw>
+                  <figure>
+                     <figDesc>decorative border resembling a picture frame</figDesc>
+                  </figure>
+               </fw>
+               <l>And poize their Bleeding <hi>Maker</hi> in the Air.</l>
+               <l>Amazing Sight! between two Thieves to ſee</l>
+               <l>
+                  <hi>Him</hi> hanging on one <hi>Slender Tree,</hi>
+               </l>
+               <l>Who y<hi rend="sup">e</hi> Prodigious weight—of all y<hi rend="sup">e</hi> Sins—of the whole World did bear.</l>
+            </lg>
+            <lg n="8">
+               <head>VIII.</head>
+               <l>Why <hi>Nature</hi> doſt thou Bluſh? why Tremble ſo?</l>
+               <l>It was not <hi>Thou</hi> that wert to Blame,</l>
+               <l>Not all <hi>thy Pow'rs</hi> th'amazing Deed could do;</l>
+               <l>'Twas <hi>Love</hi> that <hi>bore the Crime,</hi> 'twas <hi>Love</hi> that <hi>bore</hi> the <hi>Shame.</hi>
+               </l>
+               <l>A Daring Soldier ſtabs th'<hi>Expiring GOD,</hi>
+               </l>
+               <pb facs="tcp:93745:18"/>
+               <pb n="17" facs="tcp:93745:18"/>
+               <fw>
+                  <figure>
+                     <figDesc>decorative border resembling a picture frame</figDesc>
+                  </figure>
+               </fw>
+               <l>And down there pours a Rapid Stream of <hi>Blood.</hi>
+               </l>
+               <l>No longer could th'<hi>Affrighted Sun</hi> Behold</l>
+               <l>So Monſtrous and ſo ſad a Sight;</l>
+               <l>But headlong to the <hi>Ocean</hi> rowl'd,</l>
+               <l>And hid his Bluſhes in the Vail of Night.</l>
+               <l>Each <hi>Trembling Mountain</hi> ſhook its Snowy Head,</l>
+               <l>The all Devouring Grave gave up her Dead.</l>
+               <l>The <hi>Temples</hi> ſacred <hi>Vail</hi> was rent in Twain</l>
+               <l>And all things felt their Makers grief, but <hi>Man.</hi>
+               </l>
+               <l>Back to their Fountains did the Rivers flow</l>
+               <pb facs="tcp:93745:19"/>
+               <pb n="18" facs="tcp:93745:19"/>
+               <fw>
+                  <figure>
+                     <figDesc>decorative border resembling a picture frame</figDesc>
+                  </figure>
+               </fw>
+               <l>And falling Hills their Channels fill'd below.</l>
+               <l>The hardeſt Rocks in pieces broke,</l>
+               <l>And all the Earth's Foundations ſhook;</l>
+               <l>While o'er the City Frightful Ghoſts appear,</l>
+               <l>And horrid Spectres fill the Duſky, Troubled Air.</l>
+            </lg>
+            <lg n="9">
+               <head>IX.</head>
+               <l>Thee <hi>Jeſus!</hi> did the hollow Grotts Bemoan,</l>
+               <l>And all were melted into Pearly Tears.</l>
+               <l>For thee the Lions and <hi>Getulian</hi> Bears,</l>
+               <l>For thee th'<hi>Armenian</hi> Tygers Groan.</l>
+               <pb facs="tcp:93745:20"/>
+               <pb n="19" facs="tcp:93745:20"/>
+               <fw>
+                  <figure>
+                     <figDesc>decorative border resembling a picture frame</figDesc>
+                  </figure>
+               </fw>
+               <l>Each purling Stream ran murm'ring thro' the Plain</l>
+               <l>And told in <hi>Hollow</hi> Sighs its <hi>Makers</hi> Pain</l>
+               <l>Ore all the World a <hi>Pompous Sorrow</hi> ſpread,</l>
+               <l>
+                  <hi>All things were Sad, for GOD himſelf lay Dead.</hi>
+               </l>
+               <l>And while the Savage Lions grieve,</l>
+               <l>Shall harden'd <hi>Man</hi> alone refuſe to give</l>
+               <l>His Tributary ſhare of Flowing Tears,</l>
+               <l>Upon his Meek <hi>Redeemer's</hi> Hearſe?</l>
+               <l>O! Let him weep a Mighty Flood,</l>
+               <l>
+                  <hi>Strong</hi> as his Saviours <hi>Love,</hi> and <hi>Reeking</hi> as his <hi>Blood.</hi>
+               </l>
+               <pb facs="tcp:93745:21"/>
+               <pb n="20" facs="tcp:93745:21"/>
+               <fw>
+                  <figure>
+                     <figDesc>decorative border resembling a picture frame</figDesc>
+                  </figure>
+               </fw>
+               <l>Let ev'ry Diſtant Shore his Griefs reſound,</l>
+               <l>Nor let his Sorrows ever ſtay,</l>
+               <l>Till he has waſh'd thoſe <hi>Sins</hi> away</l>
+               <l>Which <hi>Crucify'd</hi> his <hi>GOD,</hi> and gave the <hi>Fatal Wound.</hi>
+               </l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
